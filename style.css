@@ -1,0 +1,467 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Montserrat:wght@200&family=Noto+Sans:wght@300&family=Roboto:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+header nav{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .sign{
+    
+    position: relative;
+    left: -2rem;
+    top:1rem;
+}
+header nav .nav-bar{
+    position: relative;
+    left: -10rem;
+}
+header nav .nav-bar a{
+   margin-left: 1.2rem;
+   font-size: 1.2rem;
+   text-decoration: none;
+   color: #000;
+   cursor: pointer;
+}
+/*-----------------------------*/
+.description-details{
+    width: 100%;
+    height: 34rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 50px;
+    
+}
+
+.description-details .description {
+    position: relative;
+    left: 4rem;
+}
+
+.description-details .description h1{
+    font-size: 3rem;
+    position: relative;
+    top: -6rem;
+    font-weight:400;
+}
+.description-details .description .text{
+    font-size: 1.5rem;
+    position: relative;
+    top: -4rem;
+    line-height: 2.5rem;
+}
+
+ .media-icon i{
+    font-size: 1.5rem;
+    color: white;
+    position: relative;
+    top: -1rem;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 50%;
+}
+ .media-icon  .fa-github{
+    background-color: black;
+}
+ .media-icon  .fa-linkedin-in{
+    background-color: blue;
+    margin-left: 1rem;
+}
+ .media-icon  .fa-g{
+    background-color: red;
+    margin-left: 1rem;
+}
+ .media-icon  .fa-facebook{
+    background-color: blue;
+    margin-left: 1rem;
+}
+.description-details .description p button{
+    padding: 8px;
+    background: rgb(92, 5, 132);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    top: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.description-details .description p  .see{
+    margin-left: 2rem;
+}
+/*------------------------------------*/
+.what-to-do{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+    top: 1rem;
+    gap: 100px;
+    width: 100%;
+    height: 52rem;
+
+}
+.what-to-do .what-to-do-image{
+    margin-left: 3rem;
+}
+.what-to-do .what-to-do-image img{
+    margin-top: -8rem;
+}
+.what-to-do .what-to-do-text{
+    position: relative;
+    top: -1rem;
+    margin-right: 40px;
+
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.5s, transform 1s;
+}
+.what-to-do:hover .what-to-do-text {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+.what-to-do .what-to-do-text h1{
+    position: relative;
+    top: -2rem;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.what-to-do .what-to-do-text .what-description{
+    position: relative;
+    top: -1rem;
+    font-size: 1.5rem;
+
+}
+.what-to-do .what-to-do-text .what-icon{
+    position: relative;
+    top: -3rem;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.what-to-do .what-to-do-text img{
+    text-decoration: none;
+    color: white;
+    width: 4rem;
+    height: 4rem;
+
+}
+.what-to-do .what-to-do-text a{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 50px; 
+    margin-top: 50px;
+}
+
+.what-to-do .what-to-do-text ul{
+    list-style: none;
+}
+.what-to-do .what-to-do-text li{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+/*-----------------------------------------*/
+
+.proficiency{
+    width: 100%;
+    height: 42rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top:-2rem
+}
+.proficiency .proficiency-bar{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+                0 10px 10px rgba(0,0,0,0.22);
+}
+.proficiency .proficiency-bar li{
+    list-style: none;
+}
+.proficiency .proficiency-bar h1{
+    text-align: left;
+    position: relative;
+    left: 10px;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.proficiency .proficiency-bar li h3{
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 300;
+}
+.proficiency-bar {
+    width: 500px;
+    padding: 20px;
+}
+
+.proficiency-bar li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.proficiency-bar li .bar{
+    display: block;
+    height: 15px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin-top: 10px
+}
+.proficiency-bar li .bar span{
+    height: 20px;
+    float: left;
+    background: rgb(119, 8, 170);
+}
+
+.proficiency:hover .proficiency-bar li .fontend {
+    width: 90%;
+    animation: fontend 3s;
+}
+
+.proficiency:hover .proficiency-bar li .backend {
+    width: 60%;
+    animation: backend 3s;
+}
+
+.proficiency:hover .proficiency-bar li .programming {
+    width: 70%;
+    animation: programming 3s;
+}
+
+@keyframes fontend {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes backend {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes programming {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+.proficiency .proficiency-image{
+    position: relative;
+    top: -1rem;
+    transform: rotateY(180deg);
+}
+
+/*-----------------------------------------*/
+.project{
+    width: 100%;
+    height: 45rem;
+}
+.project .project-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 25px;
+    padding-left:2rem;
+    padding-right: 2rem;
+    
+}
+.project .project-box .project-details:hover{
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.3),0 10px 10px rgba(0,0,0,0.3);
+}
+.project  h1{
+    padding: 0.5rem 0 1rem 2rem;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.project .project-box .project-details{
+    height: 175px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.1),0 10px 10px rgba(0,0,0,0.1);
+    position:relative;
+    
+}
+.project .project-box .project-details h1{
+    padding: 1rem 0 0 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.project .project-box .project-details h3{
+    padding: 1rem 0 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.project .project-box .project-details p{
+    padding: 1rem 0 0 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    
+    position:absolute;
+    bottom: 0.5rem;
+  
+}
+.project .project-box .project-details p span{
+    position: relative;
+    right: -25rem;
+}
+
+.project button{
+    padding: 8px;
+    background: rgb(92, 5, 132);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    top: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 43rem;
+}
+
+/*---------------------------------------*/
+footer {
+    width: 100%;
+    height: 33rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:200px;
+}
+footer .footer-text{
+    position: relative;
+    top:2rem;
+    left: 4rem;
+}
+footer .image{
+    position: relative;
+    top:2rem;
+    
+    padding: 2.5rem;
+    position: relative;
+    right: 7rem;
+
+    border-radius: 50%;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    transition: 0.4s;
+    
+}
+
+footer .image:hover{
+    border-radius: 20px;
+    height: 350px;
+
+}
+
+footer .image img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    z-index: 2;
+    transition: 0.4s;
+}
+
+footer .image:hover .into {
+    color: black;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+
+footer .image:hover img{
+    border-radius: 20px;
+    margin-top: -230px;
+}
+
+footer .into{
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    transition: 0.4s;
+    color: white;
+}
+
+footer .footer-text h1{
+    position: relative;
+    top: -5rem;
+    font-size: 3rem;
+    font-weight: 400;
+    
+}
+footer .footer-text h4{
+    position: relative;
+    top:-5rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    
+}
+footer .footer-text h3{
+    position: relative;
+    top:-2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    
+}
+footer .footer-text p{
+    position: relative;
+    top:0rem;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+footer .footer-text .image-related{
+    position: relative;
+    top:2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+footer .footer-text .media-icon{
+    position: relative;
+    top:4rem;
+    
+}
+
+/*--------------------------------*/
+.logo{
+    width: 100%;
+    height: 3rem;
+}
+.logo p{
+    text-align: center;
+    background: gray;
+    font-size: 1.2rem;
+}
