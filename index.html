@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Arosh_Upathilak_Protfolio</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#service">Service</a>
+            <a href="#opportunities">Opportunities</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--Home Section Design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi</h1>
+            <h1>I'm Arosh Upathilak<span class="multiple-text"></span>&#x1F44B;</span></h1>
+            <p>A passionate Full Stack Software Developer 🚀 having an experience of bulding Web and Mobile application with JavaScript / Reactjs / Nodejs / React  Native and dotnet some other cool libraries and frameworks</p>
+            <div class="scoial-media">
+                <a href="https://github.com/Arosh-Upathilak"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/arosh-upathilak-540124260/"><i class="fa-brands fa-linkedin-in"></i></i></a>
+            </div>
+            <a href="https://drive.google.com/uc?export=download&id=1RaH3ccQzuT-7KpJdSM6ItFo7eRL8eFHJ" id="downloadCVButton" download class="btn" >Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="Asserts/image.png" alt="" style="width: 30vw;">
+        </div>
+    </section>
+    
+    <!--My service Section Design-->
+    <section class="services" id="service">
+        <h2 class="heading">My <span>Service</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-globe"></i>
+                <h3>Web Design</h3>
+                <p>I am an experienced web designer with expertise in HTML, CSS, JavaScript, and Flutter, crafting visually stunning, responsive, and user-centric websites and applications with a keen eye for detail and creativity.</p>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Problem Solving</h3>
+                <p>I excel in problem-solving, leveraging my strong logical reasoning, analytical skills, and creative thinking to efficiently overcome challenges and deliver innovative and effective solutions in a timely manner.</p>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>App Developer</h3>
+                <p>I specialize in app development, leveraging my expertise in programming languages like Java, Kotlin, Swift, and React Native to create innovative and user-friendly mobile applications across platforms.</p>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-computer"></i>
+                <h3>Machine Learning</h3>
+                <p>I specialize in machine learning, employing algorithms and statistical models to analyze data, extract insights, and develop predictive models that enhance decision-making and drive innovation.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="opportunities" id="opportunities">
+        <h2 class="heading">Reach <span>Out to me!</span></h2>
+        <div class="opportunities-text">
+            <div class="opportunities-text-content">  
+                <h4>DISSCUSS A PROJECT OR JUST WNAT TO SAY HI MY INBOX IS OPEN FOR ALL</h4>
+                <h3>"Machine Learning Enthusiast 💻 | Web Designer 👨‍💻 | Microsoft Office Expert 💼 | Graphic Designer 🖌 | Problem Solver 💡 | Tech Enthusiast 🚀"</h3>
+                <div class="location"><a href="https://maps.app.goo.gl/JgHJd2k2JUDz1UrS8"><i class="fa-solid fa-location-dot"></i>Nelumpokuna , Srilanka.</a></div>
+            </div>
+            <div class="image">
+                <img src="Asserts/image.png" alt="man" style="width: 17rem; height: 17rem;">
+                <div class="into">
+                    <p>MR. AROSH UPATHILAK</p>
+                    <p>WEB DEVELOPER</p>
+                    <p>SRILANKA</p>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <!--Contact Section Design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://formspree.io/f/xkgwwzjk" method="POST">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" name="name" required>
+                <input type="email" placeholder="Email Address" name="email" required>
+            </div>
+            
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" name="mobile_number">
+                <input type="text" placeholder="Email Subject" name="subject" required>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;2024 by @AAU | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+
+    </footer>
+    
+
+    <!--Scroll Reveeal JS-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!--Type.JS-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!--Main JS-->
+    <script src="script.js"></script>
+</body>
+</html>
