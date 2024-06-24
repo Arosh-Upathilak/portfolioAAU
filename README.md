@@ -10,7 +10,11 @@ Welcome to my portfolio! Here, you'll find a showcase of my projects, skills, an
 - [License](#license)
 
 ## About Me
-I am Arosh Upathilak, a Web Designer.
+I am Arosh Upathilak, a Web Designer. With a keen eye for detail and a passion for creating visually appealing and user-friendly web designs, I have honed my skills in various aspects of web design. My expertise lies in crafting responsive and interactive websites that provide an excellent user experience. I am proficient in utilizing modern web technologies and tools to bring creative ideas to life.
+
+## Skills
+- **Programming Languages**: HTML, CSS, JavaScript
+- **Frameworks/Libraries**: React, Bootstrap, jQuery
 
 ## Contact
 Feel free to reach out to me via:
