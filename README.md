@@ -18,7 +18,7 @@ Feel free to reach out to me via:
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arosh-upathilak-540124260/)
 
 ## Portfolio
-🌐 [Visit My Portfolio](http://your-portfolio-url.com)
+🌐 [Visit My Portfolio](https://arosh-upathilak.github.io/portfolioAAU/)
 
 ## License
 This portfolio is licensed under the [Your License]. See the [LICENSE](LICENSE) file for more details.
