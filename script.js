@@ -48,3 +48,11 @@ ScrollReveal().reveal(".home-img , .services-container, .portfolio-box, .contact
 ScrollReveal().reveal(".home-content h1, .about-img, .opportunities-text-content",{origin:"left"});
 ScrollReveal().reveal(".home-content p, .about-content",{origin:"right"});
 
+
+/*-------------typed js------------*/
+const typed = new Typed('.typescript-text',{
+    strings:["Web Designer","Full-Stack Developer","Computer Engineer","Machine Learning Engineer"],
+    typeSpeed:70,
+    backDelay:100,
+    loop:true,
+});
