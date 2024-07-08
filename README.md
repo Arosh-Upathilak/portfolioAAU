@@ -3,10 +3,8 @@
 ## Introduction
 Welcome to my portfolio! Here, you'll find a showcase of my projects, skills, and experiences. I am passionate about WEB Design and always eager to take on new challenges.
 
-## Table of Contents
-- [About Me](#about-me)
-- [Contact](#contact)
-- [Portfolio](#portfolio)
+- [Contact]((aroshupathilak@gmail.com ))
+- [Portfolio]((https://arosh-upathilak.github.io/portfolioAAU/))
 
 ## About Me
 I am Arosh Upathilak, a Web Designer. With a keen eye for detail and a passion for creating visually appealing and user-friendly web designs, I have honed my skills in various aspects of web design. My expertise lies in crafting responsive and interactive websites that provide an excellent user experience. I am proficient in utilizing modern web technologies and tools to bring creative ideas to life.
